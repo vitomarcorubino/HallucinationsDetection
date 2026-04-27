@@ -1,0 +1,17 @@
+# Parameters for all the experiments
+common:
+  model_id: ["google/gemma-3-4b-it"]
+  skip_generation: bool(USE_RAG) # If true, the generation step will be skipped and only the evaluation will be performed
+  top_k: [2]
+  max_seq_length: [1024]
+
+# Parameters for each scenario
+scenarios:
+  - name: "standard_nq"
+    use_rag: false
+    datasets:
+      nq_swap: ["factual"]
+  - name: "rag_ragbench"
+    use_rag: true
+    datasets:
+      ragbench: ["covidqa", "cuad", "delphi"]

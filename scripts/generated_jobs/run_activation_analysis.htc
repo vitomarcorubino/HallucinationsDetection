@@ -1,0 +1,28 @@
+universe       = vanilla
+executable     = /lustrehome/vitomarcorubino/HallucinationsDetection/scripts/run_main.sh
+
+# CPU Mode: i calcoli statistici (KDE, Curtosi, Gini) si fanno su CPU
+request_cpus   = 1
+request_gpus   = 0
+request_memory = 16GB
+
+initialdir     = /lustrehome/vitomarcorubino/HallucinationsDetection
+getenv         = True
+
+log    = logs/job_$(Cluster)_analysis.log
+output = logs/job_$(Cluster)_$(Process)_analysis.out
+error  = logs/job_$(Cluster)_$(Process)_analysis.err
+
+# Analisi sui subset RAGBench
+arguments = "activation_analysis.py --dataset ragbench_covidqa"
+queue
+arguments = "activation_analysis.py --dataset ragbench_cuad"
+queue
+arguments = "activation_analysis.py --dataset ragbench_delucionqa"
+queue
+
+# Analisi su NQ-Swap
+arguments = "activation_analysis.py --dataset nq_swap_contextual"
+queue
+arguments = "activation_analysis.py --dataset nq_swap_parametric"
+queue

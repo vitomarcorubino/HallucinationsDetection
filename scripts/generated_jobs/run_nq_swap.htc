@@ -1,0 +1,22 @@
+universe       = vanilla
+executable     = /lustrehome/vitomarcorubino/HallucinationsDetection/scripts/run_main.sh
+request_cpus   = 1
+request_gpus   = 0
+request_memory = 16GB
+
+initialdir     = /lustrehome/vitomarcorubino/HallucinationsDetection
+getenv         = True
+
+# Usiamo $(Process) per distinguere i log dei due job
+log    = logs/job_nq_$(Cluster).log
+output = logs/job_nq_$(Cluster)_$(Process).out
+error  = logs/job_nq_$(Cluster)_$(Process).err
+
+# Passiamo gli argomenti dinamici
+arguments = "main.py --model_id google/gemma-3-4b-it --dataset nq_swap $(extra_args)"
+
+# Lanciamo due job: uno senza flag (Contextual) e uno con (Parametric)
+queue extra_args from (
+
+    --parametric_baseline
+)

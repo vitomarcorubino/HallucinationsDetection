@@ -1,0 +1,26 @@
+universe       = vanilla
+executable     = /lustrehome/vitomarcorubino/HallucinationsDetection/scripts/run_main.sh
+
+# CPU Mode
+request_cpus   = 4
+request_gpus   = 0
+request_memory = 16GB
+
+initialdir     = /lustrehome/vitomarcorubino/HallucinationsDetection
+getenv         = True
+
+log    = logs/job_$(Cluster)_reverse.log
+output = logs/job_$(Cluster)_$(Process)_reverse.out
+error  = logs/job_$(Cluster)_$(Process)_reverse.err
+
+# 1. Train on Combined RAG -> Test on NQ-Swap Contextual
+arguments = "train_rag_test_nq.py --target_test_datasets nq_swap_contextual"
+queue
+
+# 2. Train on Combined RAG -> Test on NQ-Swap Parametric
+arguments = "train_rag_test_nq.py --target_test_datasets nq_swap_parametric"
+queue
+
+# 3. Train on Combined RAG -> Test on NQ-Swap (Contextual + Parametric)
+arguments = "train_rag_test_nq.py --target_test_datasets nq_swap_contextual nq_swap_parametric"
+queue

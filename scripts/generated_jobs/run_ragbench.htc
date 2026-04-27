@@ -1,0 +1,19 @@
+universe       = vanilla
+executable     = /lustrehome/vitomarcorubino/HallucinationsDetection/scripts/run_main.sh
+request_cpus   = 1
+request_gpus   = 0
+request_memory = 16GB
+
+initialdir     = /lustrehome/vitomarcorubino/HallucinationsDetection
+getenv         = True
+
+log    = logs/job_$(Cluster).log
+output = logs/job_$(Cluster)_$(Process).out
+error  = logs/job_$(Cluster)_$(Process).err
+
+arguments = "main.py --model_id google/gemma-3-4b-it --dataset ragbench --subset covidqa --top_k 5 --max_seq_length 2048 --use_rag --skip_generation"
+queue
+arguments = "main.py --model_id google/gemma-3-4b-it --dataset ragbench --subset cuad --top_k 5 --max_seq_length 2048 --use_rag --skip_generation"
+queue
+arguments = "main.py --model_id google/gemma-3-4b-it --dataset ragbench --subset delucionqa --top_k 5 --max_seq_length 2048 --use_rag --skip_generation"
+queue
