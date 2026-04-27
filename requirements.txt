@@ -1,0 +1,12 @@
+datasets
+huggingface_hub
+matplotlib
+numpy
+pandas
+PyYAML
+scikit_learn
+seaborn
+sentence_transformers
+torch
+tqdm
+transformers
