@@ -1,0 +1,1768 @@
+🛠️ Experiment Mode: RAGBENCH_CUAD
+⚠️ Warning: HF_TOKEN not found in environment variables.
+--- Environment Setup ---
+Device detected: cpu
+⚠️ No GPU. Attempting CPU load with memory optimizations...
+✅ Model loaded on: cpu
+Memory footprint: 8.60 GB
+✅ [CACHE] Loading existing predictions from /lustrehome/vitomarcorubino/HallucinationsDetection/runs/cuad/cuad_cache_results.csv
+
+==================================================
+📊 SYSTEM PERFORMANCE REPORT
+Dataset: RAGBENCH_CUAD
+Total Samples: 510
+------------------------------
+✅ Faithful (Label 0):      472 (92.55%)
+🧠 Parametric Bias (Label 1): 38 (7.45%)
+📉 Noise/Other (Label -1):   0 (0.00%)
+==================================================
+
+✅ [CACHE] 'not_hallucinated' activations found.
+✅ [CACHE] 'hallucinated' activations found.
+
+--- Starting Probing Phase (N Runs x Probe Types) ---
+
+[LOGISTIC_REGRESSION] Training and Evaluation...
+✅ LOGISTIC_REGRESSION saved: probe_L0_hidden_run0.pt
+L0 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.593 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L0_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_hidden_run0.pt
+L1 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.612 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L1_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_hidden_run0.pt
+L2 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.621 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L2_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_hidden_run0.pt
+L3 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.542 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L3_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_hidden_run0.pt
+L4 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.499 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L4_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_hidden_run0.pt
+L5 hidden (logistic_regression) | Test ACC: 0.831 | Test AUC: 0.612 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L5_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_hidden_run0.pt
+L6 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.519 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L6_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_hidden_run0.pt
+L7 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.543 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L7_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_hidden_run0.pt
+L8 hidden (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.629 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L8_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_hidden_run0.pt
+L9 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.508 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L9_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_hidden_run0.pt
+L10 hidden (logistic_regression) | Test ACC: 0.831 | Test AUC: 0.549 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L10_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_hidden_run0.pt
+L11 hidden (logistic_regression) | Test ACC: 0.844 | Test AUC: 0.635 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L11_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_hidden_run0.pt
+L12 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.519 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L12_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_hidden_run0.pt
+L13 hidden (logistic_regression) | Test ACC: 0.455 | Test AUC: 0.554 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L13_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_hidden_run0.pt
+L14 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.643 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L14_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_hidden_run0.pt
+L15 hidden (logistic_regression) | Test ACC: 0.844 | Test AUC: 0.665 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L15_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_hidden_run0.pt
+L16 hidden (logistic_regression) | Test ACC: 0.857 | Test AUC: 0.667 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L16_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_hidden_run0.pt
+L17 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.655 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L17_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_hidden_run0.pt
+L18 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.665 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L18_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_hidden_run0.pt
+L19 hidden (logistic_regression) | Test ACC: 0.831 | Test AUC: 0.661 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L19_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_hidden_run0.pt
+L20 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.582 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L20_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_hidden_run0.pt
+L21 hidden (logistic_regression) | Test ACC: 0.831 | Test AUC: 0.594 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L21_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_hidden_run0.pt
+L22 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.661 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L22_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_hidden_run0.pt
+L23 hidden (logistic_regression) | Test ACC: 0.740 | Test AUC: 0.613 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L23_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_hidden_run0.pt
+L24 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.577 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L24_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_hidden_run0.pt
+L25 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.665 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L25_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_hidden_run0.pt
+L26 hidden (logistic_regression) | Test ACC: 0.831 | Test AUC: 0.599 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L26_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_hidden_run0.pt
+L27 hidden (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.655 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L27_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_hidden_run0.pt
+L28 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.673 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L28_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_hidden_run0.pt
+L29 hidden (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.669 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L29_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_hidden_run0.pt
+L30 hidden (logistic_regression) | Test ACC: 0.506 | Test AUC: 0.514 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L30_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_hidden_run0.pt
+L31 hidden (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.665 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L31_hidden_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_hidden_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_hidden_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_hidden_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_mlp_run0.pt
+L0 mlp (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.687 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L0_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_mlp_run0.pt
+L1 mlp (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.619 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L1_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_mlp_run0.pt
+L2 mlp (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.635 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L2_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_mlp_run0.pt
+L3 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L3_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_mlp_run0.pt
+L4 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.729 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L4_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_mlp_run0.pt
+L5 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.583 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L5_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_mlp_run0.pt
+L6 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.687 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L6_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_mlp_run0.pt
+L7 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.694 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L7_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_mlp_run0.pt
+L8 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.651 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L8_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_mlp_run0.pt
+L9 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.649 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L9_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_mlp_run0.pt
+L10 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.670 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L10_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_mlp_run0.pt
+L11 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.715 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L11_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_mlp_run0.pt
+L12 mlp (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.623 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L12_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_mlp_run0.pt
+L13 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.586 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L13_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_mlp_run0.pt
+L14 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L14_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_mlp_run0.pt
+L15 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.708 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L15_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_mlp_run0.pt
+L16 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.745 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L16_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_mlp_run0.pt
+L17 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.626 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L17_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_mlp_run0.pt
+L18 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L18_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_mlp_run0.pt
+L19 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.668 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L19_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_mlp_run0.pt
+L20 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.612 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L20_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_mlp_run0.pt
+L21 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L21_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_mlp_run0.pt
+L22 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.590 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L22_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_mlp_run0.pt
+L23 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.612 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L23_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_mlp_run0.pt
+L24 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.597 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L24_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_mlp_run0.pt
+L25 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.644 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L25_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_mlp_run0.pt
+L26 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.717 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L26_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_mlp_run0.pt
+L27 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.710 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L27_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_mlp_run0.pt
+L28 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.617 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L28_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_mlp_run0.pt
+L29 mlp (logistic_regression) | Test ACC: 0.818 | Test AUC: 0.729 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L29_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_mlp_run0.pt
+L30 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.701 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L30_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_mlp_run0.pt
+L31 mlp (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.614 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L31_mlp_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_mlp_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_mlp_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_mlp_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_attn_run0.pt
+L0 attn (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.776 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L0_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L0_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_attn_run0.pt
+L1 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.797 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L1_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L1_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_attn_run0.pt
+L2 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.727 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L2_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L2_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_attn_run0.pt
+L3 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.717 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L3_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L3_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_attn_run0.pt
+L4 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.830 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L4_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L4_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_attn_run0.pt
+L5 attn (logistic_regression) | Test ACC: 0.792 | Test AUC: 0.820 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L5_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L5_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_attn_run0.pt
+L6 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.734 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L6_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L6_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_attn_run0.pt
+L7 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.745 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L7_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L7_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_attn_run0.pt
+L8 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.750 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L8_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L8_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_attn_run0.pt
+L9 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.630 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L9_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L9_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_attn_run0.pt
+L10 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.687 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L10_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L10_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_attn_run0.pt
+L11 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.670 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L11_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L11_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_attn_run0.pt
+L12 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.606 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L12_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L12_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_attn_run0.pt
+L13 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.637 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L13_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L13_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_attn_run0.pt
+L14 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L14_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L14_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_attn_run0.pt
+L15 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.622 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L15_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L15_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_attn_run0.pt
+L16 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.642 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L16_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L16_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_attn_run0.pt
+L17 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.832 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L17_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L17_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_attn_run0.pt
+L18 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.581 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L18_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L18_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_attn_run0.pt
+L19 attn (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.670 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L19_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L19_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_attn_run0.pt
+L20 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.658 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L20_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L20_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_attn_run0.pt
+L21 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.657 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L21_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L21_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_attn_run0.pt
+L22 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.715 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L22_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L22_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_attn_run0.pt
+L23 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.696 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L23_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L23_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_attn_run0.pt
+L24 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.619 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L24_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L24_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_attn_run0.pt
+L25 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.705 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L25_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L25_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_attn_run0.pt
+L26 attn (logistic_regression) | Test ACC: 0.779 | Test AUC: 0.673 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L26_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L26_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_attn_run0.pt
+L27 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.661 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L27_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L27_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_attn_run0.pt
+L28 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.755 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L28_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L28_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_attn_run0.pt
+L29 attn (logistic_regression) | Test ACC: 0.740 | Test AUC: 0.722 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L29_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L29_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_attn_run0.pt
+L30 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.687 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L30_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L30_attn_run4.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_attn_run0.pt
+L31 attn (logistic_regression) | Test ACC: 0.805 | Test AUC: 0.689 (Run 0)
+✅ LOGISTIC_REGRESSION saved: probe_L31_attn_run1.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_attn_run2.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_attn_run3.pt
+✅ LOGISTIC_REGRESSION saved: probe_L31_attn_run4.pt
+
+[FFN] Training and Evaluation...
+✅ FFN saved: probe_L0_hidden_run0.pt
+L0 hidden (ffn) | Test ACC: 0.740 | Test AUC: 0.577 (Run 0)
+✅ FFN saved: probe_L0_hidden_run1.pt
+✅ FFN saved: probe_L0_hidden_run2.pt
+✅ FFN saved: probe_L0_hidden_run3.pt
+✅ FFN saved: probe_L0_hidden_run4.pt
+✅ FFN saved: probe_L1_hidden_run0.pt
+L1 hidden (ffn) | Test ACC: 0.701 | Test AUC: 0.668 (Run 0)
+✅ FFN saved: probe_L1_hidden_run1.pt
+✅ FFN saved: probe_L1_hidden_run2.pt
+✅ FFN saved: probe_L1_hidden_run3.pt
+✅ FFN saved: probe_L1_hidden_run4.pt
+✅ FFN saved: probe_L2_hidden_run0.pt
+L2 hidden (ffn) | Test ACC: 0.792 | Test AUC: 0.612 (Run 0)
+✅ FFN saved: probe_L2_hidden_run1.pt
+✅ FFN saved: probe_L2_hidden_run2.pt
+✅ FFN saved: probe_L2_hidden_run3.pt
+✅ FFN saved: probe_L2_hidden_run4.pt
+✅ FFN saved: probe_L3_hidden_run0.pt
+L3 hidden (ffn) | Test ACC: 0.792 | Test AUC: 0.614 (Run 0)
+✅ FFN saved: probe_L3_hidden_run1.pt
+✅ FFN saved: probe_L3_hidden_run2.pt
+✅ FFN saved: probe_L3_hidden_run3.pt
+✅ FFN saved: probe_L3_hidden_run4.pt
+✅ FFN saved: probe_L4_hidden_run0.pt
+L4 hidden (ffn) | Test ACC: 0.818 | Test AUC: 0.579 (Run 0)
+✅ FFN saved: probe_L4_hidden_run1.pt
+✅ FFN saved: probe_L4_hidden_run2.pt
+✅ FFN saved: probe_L4_hidden_run3.pt
+✅ FFN saved: probe_L4_hidden_run4.pt
+✅ FFN saved: probe_L5_hidden_run0.pt
+L5 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.576 (Run 0)
+✅ FFN saved: probe_L5_hidden_run1.pt
+✅ FFN saved: probe_L5_hidden_run2.pt
+✅ FFN saved: probe_L5_hidden_run3.pt
+✅ FFN saved: probe_L5_hidden_run4.pt
+✅ FFN saved: probe_L6_hidden_run0.pt
+L6 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.534 (Run 0)
+✅ FFN saved: probe_L6_hidden_run1.pt
+✅ FFN saved: probe_L6_hidden_run2.pt
+✅ FFN saved: probe_L6_hidden_run3.pt
+✅ FFN saved: probe_L6_hidden_run4.pt
+✅ FFN saved: probe_L7_hidden_run0.pt
+L7 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.546 (Run 0)
+✅ FFN saved: probe_L7_hidden_run1.pt
+✅ FFN saved: probe_L7_hidden_run2.pt
+✅ FFN saved: probe_L7_hidden_run3.pt
+✅ FFN saved: probe_L7_hidden_run4.pt
+✅ FFN saved: probe_L8_hidden_run0.pt
+L8 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.647 (Run 0)
+✅ FFN saved: probe_L8_hidden_run1.pt
+✅ FFN saved: probe_L8_hidden_run2.pt
+✅ FFN saved: probe_L8_hidden_run3.pt
+✅ FFN saved: probe_L8_hidden_run4.pt
+✅ FFN saved: probe_L9_hidden_run0.pt
+L9 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.579 (Run 0)
+✅ FFN saved: probe_L9_hidden_run1.pt
+✅ FFN saved: probe_L9_hidden_run2.pt
+✅ FFN saved: probe_L9_hidden_run3.pt
+✅ FFN saved: probe_L9_hidden_run4.pt
+✅ FFN saved: probe_L10_hidden_run0.pt
+L10 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.630 (Run 0)
+✅ FFN saved: probe_L10_hidden_run1.pt
+✅ FFN saved: probe_L10_hidden_run2.pt
+✅ FFN saved: probe_L10_hidden_run3.pt
+✅ FFN saved: probe_L10_hidden_run4.pt
+✅ FFN saved: probe_L11_hidden_run0.pt
+L11 hidden (ffn) | Test ACC: 0.818 | Test AUC: 0.663 (Run 0)
+✅ FFN saved: probe_L11_hidden_run1.pt
+✅ FFN saved: probe_L11_hidden_run2.pt
+✅ FFN saved: probe_L11_hidden_run3.pt
+✅ FFN saved: probe_L11_hidden_run4.pt
+✅ FFN saved: probe_L12_hidden_run0.pt
+L12 hidden (ffn) | Test ACC: 0.818 | Test AUC: 0.698 (Run 0)
+✅ FFN saved: probe_L12_hidden_run1.pt
+✅ FFN saved: probe_L12_hidden_run2.pt
+✅ FFN saved: probe_L12_hidden_run3.pt
+✅ FFN saved: probe_L12_hidden_run4.pt
+✅ FFN saved: probe_L13_hidden_run0.pt
+L13 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ FFN saved: probe_L13_hidden_run1.pt
+✅ FFN saved: probe_L13_hidden_run2.pt
+✅ FFN saved: probe_L13_hidden_run3.pt
+✅ FFN saved: probe_L13_hidden_run4.pt
+✅ FFN saved: probe_L14_hidden_run0.pt
+L14 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.593 (Run 0)
+✅ FFN saved: probe_L14_hidden_run1.pt
+✅ FFN saved: probe_L14_hidden_run2.pt
+✅ FFN saved: probe_L14_hidden_run3.pt
+✅ FFN saved: probe_L14_hidden_run4.pt
+✅ FFN saved: probe_L15_hidden_run0.pt
+L15 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.633 (Run 0)
+✅ FFN saved: probe_L15_hidden_run1.pt
+✅ FFN saved: probe_L15_hidden_run2.pt
+✅ FFN saved: probe_L15_hidden_run3.pt
+✅ FFN saved: probe_L15_hidden_run4.pt
+✅ FFN saved: probe_L16_hidden_run0.pt
+L16 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.630 (Run 0)
+✅ FFN saved: probe_L16_hidden_run1.pt
+✅ FFN saved: probe_L16_hidden_run2.pt
+✅ FFN saved: probe_L16_hidden_run3.pt
+✅ FFN saved: probe_L16_hidden_run4.pt
+✅ FFN saved: probe_L17_hidden_run0.pt
+L17 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.609 (Run 0)
+✅ FFN saved: probe_L17_hidden_run1.pt
+✅ FFN saved: probe_L17_hidden_run2.pt
+✅ FFN saved: probe_L17_hidden_run3.pt
+✅ FFN saved: probe_L17_hidden_run4.pt
+✅ FFN saved: probe_L18_hidden_run0.pt
+L18 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.581 (Run 0)
+✅ FFN saved: probe_L18_hidden_run1.pt
+✅ FFN saved: probe_L18_hidden_run2.pt
+✅ FFN saved: probe_L18_hidden_run3.pt
+✅ FFN saved: probe_L18_hidden_run4.pt
+✅ FFN saved: probe_L19_hidden_run0.pt
+L19 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.626 (Run 0)
+✅ FFN saved: probe_L19_hidden_run1.pt
+✅ FFN saved: probe_L19_hidden_run2.pt
+✅ FFN saved: probe_L19_hidden_run3.pt
+✅ FFN saved: probe_L19_hidden_run4.pt
+✅ FFN saved: probe_L20_hidden_run0.pt
+L20 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ FFN saved: probe_L20_hidden_run1.pt
+✅ FFN saved: probe_L20_hidden_run2.pt
+✅ FFN saved: probe_L20_hidden_run3.pt
+✅ FFN saved: probe_L20_hidden_run4.pt
+✅ FFN saved: probe_L21_hidden_run0.pt
+L21 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.601 (Run 0)
+✅ FFN saved: probe_L21_hidden_run1.pt
+✅ FFN saved: probe_L21_hidden_run2.pt
+✅ FFN saved: probe_L21_hidden_run3.pt
+✅ FFN saved: probe_L21_hidden_run4.pt
+✅ FFN saved: probe_L22_hidden_run0.pt
+L22 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.597 (Run 0)
+✅ FFN saved: probe_L22_hidden_run1.pt
+✅ FFN saved: probe_L22_hidden_run2.pt
+✅ FFN saved: probe_L22_hidden_run3.pt
+✅ FFN saved: probe_L22_hidden_run4.pt
+✅ FFN saved: probe_L23_hidden_run0.pt
+L23 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.626 (Run 0)
+✅ FFN saved: probe_L23_hidden_run1.pt
+✅ FFN saved: probe_L23_hidden_run2.pt
+✅ FFN saved: probe_L23_hidden_run3.pt
+✅ FFN saved: probe_L23_hidden_run4.pt
+✅ FFN saved: probe_L24_hidden_run0.pt
+L24 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.665 (Run 0)
+✅ FFN saved: probe_L24_hidden_run1.pt
+✅ FFN saved: probe_L24_hidden_run2.pt
+✅ FFN saved: probe_L24_hidden_run3.pt
+✅ FFN saved: probe_L24_hidden_run4.pt
+✅ FFN saved: probe_L25_hidden_run0.pt
+L25 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.631 (Run 0)
+✅ FFN saved: probe_L25_hidden_run1.pt
+✅ FFN saved: probe_L25_hidden_run2.pt
+✅ FFN saved: probe_L25_hidden_run3.pt
+✅ FFN saved: probe_L25_hidden_run4.pt
+✅ FFN saved: probe_L26_hidden_run0.pt
+L26 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.724 (Run 0)
+✅ FFN saved: probe_L26_hidden_run1.pt
+✅ FFN saved: probe_L26_hidden_run2.pt
+✅ FFN saved: probe_L26_hidden_run3.pt
+✅ FFN saved: probe_L26_hidden_run4.pt
+✅ FFN saved: probe_L27_hidden_run0.pt
+L27 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ FFN saved: probe_L27_hidden_run1.pt
+✅ FFN saved: probe_L27_hidden_run2.pt
+✅ FFN saved: probe_L27_hidden_run3.pt
+✅ FFN saved: probe_L27_hidden_run4.pt
+✅ FFN saved: probe_L28_hidden_run0.pt
+L28 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.736 (Run 0)
+✅ FFN saved: probe_L28_hidden_run1.pt
+✅ FFN saved: probe_L28_hidden_run2.pt
+✅ FFN saved: probe_L28_hidden_run3.pt
+✅ FFN saved: probe_L28_hidden_run4.pt
+✅ FFN saved: probe_L29_hidden_run0.pt
+L29 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.769 (Run 0)
+✅ FFN saved: probe_L29_hidden_run1.pt
+✅ FFN saved: probe_L29_hidden_run2.pt
+✅ FFN saved: probe_L29_hidden_run3.pt
+✅ FFN saved: probe_L29_hidden_run4.pt
+✅ FFN saved: probe_L30_hidden_run0.pt
+L30 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.717 (Run 0)
+✅ FFN saved: probe_L30_hidden_run1.pt
+✅ FFN saved: probe_L30_hidden_run2.pt
+✅ FFN saved: probe_L30_hidden_run3.pt
+✅ FFN saved: probe_L30_hidden_run4.pt
+✅ FFN saved: probe_L31_hidden_run0.pt
+L31 hidden (ffn) | Test ACC: 0.805 | Test AUC: 0.755 (Run 0)
+✅ FFN saved: probe_L31_hidden_run1.pt
+✅ FFN saved: probe_L31_hidden_run2.pt
+✅ FFN saved: probe_L31_hidden_run3.pt
+✅ FFN saved: probe_L31_hidden_run4.pt
+✅ FFN saved: probe_L0_mlp_run0.pt
+L0 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.642 (Run 0)
+✅ FFN saved: probe_L0_mlp_run1.pt
+✅ FFN saved: probe_L0_mlp_run2.pt
+✅ FFN saved: probe_L0_mlp_run3.pt
+✅ FFN saved: probe_L0_mlp_run4.pt
+✅ FFN saved: probe_L1_mlp_run0.pt
+L1 mlp (ffn) | Test ACC: 0.818 | Test AUC: 0.696 (Run 0)
+✅ FFN saved: probe_L1_mlp_run1.pt
+✅ FFN saved: probe_L1_mlp_run2.pt
+✅ FFN saved: probe_L1_mlp_run3.pt
+✅ FFN saved: probe_L1_mlp_run4.pt
+✅ FFN saved: probe_L2_mlp_run0.pt
+L2 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.719 (Run 0)
+✅ FFN saved: probe_L2_mlp_run1.pt
+✅ FFN saved: probe_L2_mlp_run2.pt
+✅ FFN saved: probe_L2_mlp_run3.pt
+✅ FFN saved: probe_L2_mlp_run4.pt
+✅ FFN saved: probe_L3_mlp_run0.pt
+L3 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.736 (Run 0)
+✅ FFN saved: probe_L3_mlp_run1.pt
+✅ FFN saved: probe_L3_mlp_run2.pt
+✅ FFN saved: probe_L3_mlp_run3.pt
+✅ FFN saved: probe_L3_mlp_run4.pt
+✅ FFN saved: probe_L4_mlp_run0.pt
+L4 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.773 (Run 0)
+✅ FFN saved: probe_L4_mlp_run1.pt
+✅ FFN saved: probe_L4_mlp_run2.pt
+✅ FFN saved: probe_L4_mlp_run3.pt
+✅ FFN saved: probe_L4_mlp_run4.pt
+✅ FFN saved: probe_L5_mlp_run0.pt
+L5 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.612 (Run 0)
+✅ FFN saved: probe_L5_mlp_run1.pt
+✅ FFN saved: probe_L5_mlp_run2.pt
+✅ FFN saved: probe_L5_mlp_run3.pt
+✅ FFN saved: probe_L5_mlp_run4.pt
+✅ FFN saved: probe_L6_mlp_run0.pt
+L6 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.712 (Run 0)
+✅ FFN saved: probe_L6_mlp_run1.pt
+✅ FFN saved: probe_L6_mlp_run2.pt
+✅ FFN saved: probe_L6_mlp_run3.pt
+✅ FFN saved: probe_L6_mlp_run4.pt
+✅ FFN saved: probe_L7_mlp_run0.pt
+L7 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.701 (Run 0)
+✅ FFN saved: probe_L7_mlp_run1.pt
+✅ FFN saved: probe_L7_mlp_run2.pt
+✅ FFN saved: probe_L7_mlp_run3.pt
+✅ FFN saved: probe_L7_mlp_run4.pt
+✅ FFN saved: probe_L8_mlp_run0.pt
+L8 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.656 (Run 0)
+✅ FFN saved: probe_L8_mlp_run1.pt
+✅ FFN saved: probe_L8_mlp_run2.pt
+✅ FFN saved: probe_L8_mlp_run3.pt
+✅ FFN saved: probe_L8_mlp_run4.pt
+✅ FFN saved: probe_L9_mlp_run0.pt
+L9 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.651 (Run 0)
+✅ FFN saved: probe_L9_mlp_run1.pt
+✅ FFN saved: probe_L9_mlp_run2.pt
+✅ FFN saved: probe_L9_mlp_run3.pt
+✅ FFN saved: probe_L9_mlp_run4.pt
+✅ FFN saved: probe_L10_mlp_run0.pt
+L10 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.696 (Run 0)
+✅ FFN saved: probe_L10_mlp_run1.pt
+✅ FFN saved: probe_L10_mlp_run2.pt
+✅ FFN saved: probe_L10_mlp_run3.pt
+✅ FFN saved: probe_L10_mlp_run4.pt
+✅ FFN saved: probe_L11_mlp_run0.pt
+L11 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.669 (Run 0)
+✅ FFN saved: probe_L11_mlp_run1.pt
+✅ FFN saved: probe_L11_mlp_run2.pt
+✅ FFN saved: probe_L11_mlp_run3.pt
+✅ FFN saved: probe_L11_mlp_run4.pt
+✅ FFN saved: probe_L12_mlp_run0.pt
+L12 mlp (ffn) | Test ACC: 0.792 | Test AUC: 0.642 (Run 0)
+✅ FFN saved: probe_L12_mlp_run1.pt
+✅ FFN saved: probe_L12_mlp_run2.pt
+✅ FFN saved: probe_L12_mlp_run3.pt
+✅ FFN saved: probe_L12_mlp_run4.pt
+✅ FFN saved: probe_L13_mlp_run0.pt
+L13 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.581 (Run 0)
+✅ FFN saved: probe_L13_mlp_run1.pt
+✅ FFN saved: probe_L13_mlp_run2.pt
+✅ FFN saved: probe_L13_mlp_run3.pt
+✅ FFN saved: probe_L13_mlp_run4.pt
+✅ FFN saved: probe_L14_mlp_run0.pt
+L14 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.684 (Run 0)
+✅ FFN saved: probe_L14_mlp_run1.pt
+✅ FFN saved: probe_L14_mlp_run2.pt
+✅ FFN saved: probe_L14_mlp_run3.pt
+✅ FFN saved: probe_L14_mlp_run4.pt
+✅ FFN saved: probe_L15_mlp_run0.pt
+L15 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.684 (Run 0)
+✅ FFN saved: probe_L15_mlp_run1.pt
+✅ FFN saved: probe_L15_mlp_run2.pt
+✅ FFN saved: probe_L15_mlp_run3.pt
+✅ FFN saved: probe_L15_mlp_run4.pt
+✅ FFN saved: probe_L16_mlp_run0.pt
+L16 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.727 (Run 0)
+✅ FFN saved: probe_L16_mlp_run1.pt
+✅ FFN saved: probe_L16_mlp_run2.pt
+✅ FFN saved: probe_L16_mlp_run3.pt
+✅ FFN saved: probe_L16_mlp_run4.pt
+✅ FFN saved: probe_L17_mlp_run0.pt
+L17 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ FFN saved: probe_L17_mlp_run1.pt
+✅ FFN saved: probe_L17_mlp_run2.pt
+✅ FFN saved: probe_L17_mlp_run3.pt
+✅ FFN saved: probe_L17_mlp_run4.pt
+✅ FFN saved: probe_L18_mlp_run0.pt
+L18 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ FFN saved: probe_L18_mlp_run1.pt
+✅ FFN saved: probe_L18_mlp_run2.pt
+✅ FFN saved: probe_L18_mlp_run3.pt
+✅ FFN saved: probe_L18_mlp_run4.pt
+✅ FFN saved: probe_L19_mlp_run0.pt
+L19 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.661 (Run 0)
+✅ FFN saved: probe_L19_mlp_run1.pt
+✅ FFN saved: probe_L19_mlp_run2.pt
+✅ FFN saved: probe_L19_mlp_run3.pt
+✅ FFN saved: probe_L19_mlp_run4.pt
+✅ FFN saved: probe_L20_mlp_run0.pt
+L20 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.649 (Run 0)
+✅ FFN saved: probe_L20_mlp_run1.pt
+✅ FFN saved: probe_L20_mlp_run2.pt
+✅ FFN saved: probe_L20_mlp_run3.pt
+✅ FFN saved: probe_L20_mlp_run4.pt
+✅ FFN saved: probe_L21_mlp_run0.pt
+L21 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.708 (Run 0)
+✅ FFN saved: probe_L21_mlp_run1.pt
+✅ FFN saved: probe_L21_mlp_run2.pt
+✅ FFN saved: probe_L21_mlp_run3.pt
+✅ FFN saved: probe_L21_mlp_run4.pt
+✅ FFN saved: probe_L22_mlp_run0.pt
+L22 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.579 (Run 0)
+✅ FFN saved: probe_L22_mlp_run1.pt
+✅ FFN saved: probe_L22_mlp_run2.pt
+✅ FFN saved: probe_L22_mlp_run3.pt
+✅ FFN saved: probe_L22_mlp_run4.pt
+✅ FFN saved: probe_L23_mlp_run0.pt
+L23 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.621 (Run 0)
+✅ FFN saved: probe_L23_mlp_run1.pt
+✅ FFN saved: probe_L23_mlp_run2.pt
+✅ FFN saved: probe_L23_mlp_run3.pt
+✅ FFN saved: probe_L23_mlp_run4.pt
+✅ FFN saved: probe_L24_mlp_run0.pt
+L24 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.629 (Run 0)
+✅ FFN saved: probe_L24_mlp_run1.pt
+✅ FFN saved: probe_L24_mlp_run2.pt
+✅ FFN saved: probe_L24_mlp_run3.pt
+✅ FFN saved: probe_L24_mlp_run4.pt
+✅ FFN saved: probe_L25_mlp_run0.pt
+L25 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.691 (Run 0)
+✅ FFN saved: probe_L25_mlp_run1.pt
+✅ FFN saved: probe_L25_mlp_run2.pt
+✅ FFN saved: probe_L25_mlp_run3.pt
+✅ FFN saved: probe_L25_mlp_run4.pt
+✅ FFN saved: probe_L26_mlp_run0.pt
+L26 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.785 (Run 0)
+✅ FFN saved: probe_L26_mlp_run1.pt
+✅ FFN saved: probe_L26_mlp_run2.pt
+✅ FFN saved: probe_L26_mlp_run3.pt
+✅ FFN saved: probe_L26_mlp_run4.pt
+✅ FFN saved: probe_L27_mlp_run0.pt
+L27 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ FFN saved: probe_L27_mlp_run1.pt
+✅ FFN saved: probe_L27_mlp_run2.pt
+✅ FFN saved: probe_L27_mlp_run3.pt
+✅ FFN saved: probe_L27_mlp_run4.pt
+✅ FFN saved: probe_L28_mlp_run0.pt
+L28 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.619 (Run 0)
+✅ FFN saved: probe_L28_mlp_run1.pt
+✅ FFN saved: probe_L28_mlp_run2.pt
+✅ FFN saved: probe_L28_mlp_run3.pt
+✅ FFN saved: probe_L28_mlp_run4.pt
+✅ FFN saved: probe_L29_mlp_run0.pt
+L29 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.759 (Run 0)
+✅ FFN saved: probe_L29_mlp_run1.pt
+✅ FFN saved: probe_L29_mlp_run2.pt
+✅ FFN saved: probe_L29_mlp_run3.pt
+✅ FFN saved: probe_L29_mlp_run4.pt
+✅ FFN saved: probe_L30_mlp_run0.pt
+L30 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.691 (Run 0)
+✅ FFN saved: probe_L30_mlp_run1.pt
+✅ FFN saved: probe_L30_mlp_run2.pt
+✅ FFN saved: probe_L30_mlp_run3.pt
+✅ FFN saved: probe_L30_mlp_run4.pt
+✅ FFN saved: probe_L31_mlp_run0.pt
+L31 mlp (ffn) | Test ACC: 0.805 | Test AUC: 0.657 (Run 0)
+✅ FFN saved: probe_L31_mlp_run1.pt
+✅ FFN saved: probe_L31_mlp_run2.pt
+✅ FFN saved: probe_L31_mlp_run3.pt
+✅ FFN saved: probe_L31_mlp_run4.pt
+✅ FFN saved: probe_L0_attn_run0.pt
+L0 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.799 (Run 0)
+✅ FFN saved: probe_L0_attn_run1.pt
+✅ FFN saved: probe_L0_attn_run2.pt
+✅ FFN saved: probe_L0_attn_run3.pt
+✅ FFN saved: probe_L0_attn_run4.pt
+✅ FFN saved: probe_L1_attn_run0.pt
+L1 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.811 (Run 0)
+✅ FFN saved: probe_L1_attn_run1.pt
+✅ FFN saved: probe_L1_attn_run2.pt
+✅ FFN saved: probe_L1_attn_run3.pt
+✅ FFN saved: probe_L1_attn_run4.pt
+✅ FFN saved: probe_L2_attn_run0.pt
+L2 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.727 (Run 0)
+✅ FFN saved: probe_L2_attn_run1.pt
+✅ FFN saved: probe_L2_attn_run2.pt
+✅ FFN saved: probe_L2_attn_run3.pt
+✅ FFN saved: probe_L2_attn_run4.pt
+✅ FFN saved: probe_L3_attn_run0.pt
+L3 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.680 (Run 0)
+✅ FFN saved: probe_L3_attn_run1.pt
+✅ FFN saved: probe_L3_attn_run2.pt
+✅ FFN saved: probe_L3_attn_run3.pt
+✅ FFN saved: probe_L3_attn_run4.pt
+✅ FFN saved: probe_L4_attn_run0.pt
+L4 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.771 (Run 0)
+✅ FFN saved: probe_L4_attn_run1.pt
+✅ FFN saved: probe_L4_attn_run2.pt
+✅ FFN saved: probe_L4_attn_run3.pt
+✅ FFN saved: probe_L4_attn_run4.pt
+✅ FFN saved: probe_L5_attn_run0.pt
+L5 attn (ffn) | Test ACC: 0.792 | Test AUC: 0.812 (Run 0)
+✅ FFN saved: probe_L5_attn_run1.pt
+✅ FFN saved: probe_L5_attn_run2.pt
+✅ FFN saved: probe_L5_attn_run3.pt
+✅ FFN saved: probe_L5_attn_run4.pt
+✅ FFN saved: probe_L6_attn_run0.pt
+L6 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.764 (Run 0)
+✅ FFN saved: probe_L6_attn_run1.pt
+✅ FFN saved: probe_L6_attn_run2.pt
+✅ FFN saved: probe_L6_attn_run3.pt
+✅ FFN saved: probe_L6_attn_run4.pt
+✅ FFN saved: probe_L7_attn_run0.pt
+L7 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.792 (Run 0)
+✅ FFN saved: probe_L7_attn_run1.pt
+✅ FFN saved: probe_L7_attn_run2.pt
+✅ FFN saved: probe_L7_attn_run3.pt
+✅ FFN saved: probe_L7_attn_run4.pt
+✅ FFN saved: probe_L8_attn_run0.pt
+L8 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ FFN saved: probe_L8_attn_run1.pt
+✅ FFN saved: probe_L8_attn_run2.pt
+✅ FFN saved: probe_L8_attn_run3.pt
+✅ FFN saved: probe_L8_attn_run4.pt
+✅ FFN saved: probe_L9_attn_run0.pt
+L9 attn (ffn) | Test ACC: 0.818 | Test AUC: 0.637 (Run 0)
+✅ FFN saved: probe_L9_attn_run1.pt
+✅ FFN saved: probe_L9_attn_run2.pt
+✅ FFN saved: probe_L9_attn_run3.pt
+✅ FFN saved: probe_L9_attn_run4.pt
+✅ FFN saved: probe_L10_attn_run0.pt
+L10 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.722 (Run 0)
+✅ FFN saved: probe_L10_attn_run1.pt
+✅ FFN saved: probe_L10_attn_run2.pt
+✅ FFN saved: probe_L10_attn_run3.pt
+✅ FFN saved: probe_L10_attn_run4.pt
+✅ FFN saved: probe_L11_attn_run0.pt
+L11 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.675 (Run 0)
+✅ FFN saved: probe_L11_attn_run1.pt
+✅ FFN saved: probe_L11_attn_run2.pt
+✅ FFN saved: probe_L11_attn_run3.pt
+✅ FFN saved: probe_L11_attn_run4.pt
+✅ FFN saved: probe_L12_attn_run0.pt
+L12 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.643 (Run 0)
+✅ FFN saved: probe_L12_attn_run1.pt
+✅ FFN saved: probe_L12_attn_run2.pt
+✅ FFN saved: probe_L12_attn_run3.pt
+✅ FFN saved: probe_L12_attn_run4.pt
+✅ FFN saved: probe_L13_attn_run0.pt
+L13 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ FFN saved: probe_L13_attn_run1.pt
+✅ FFN saved: probe_L13_attn_run2.pt
+✅ FFN saved: probe_L13_attn_run3.pt
+✅ FFN saved: probe_L13_attn_run4.pt
+✅ FFN saved: probe_L14_attn_run0.pt
+L14 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.708 (Run 0)
+✅ FFN saved: probe_L14_attn_run1.pt
+✅ FFN saved: probe_L14_attn_run2.pt
+✅ FFN saved: probe_L14_attn_run3.pt
+✅ FFN saved: probe_L14_attn_run4.pt
+✅ FFN saved: probe_L15_attn_run0.pt
+L15 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.651 (Run 0)
+✅ FFN saved: probe_L15_attn_run1.pt
+✅ FFN saved: probe_L15_attn_run2.pt
+✅ FFN saved: probe_L15_attn_run3.pt
+✅ FFN saved: probe_L15_attn_run4.pt
+✅ FFN saved: probe_L16_attn_run0.pt
+L16 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.691 (Run 0)
+✅ FFN saved: probe_L16_attn_run1.pt
+✅ FFN saved: probe_L16_attn_run2.pt
+✅ FFN saved: probe_L16_attn_run3.pt
+✅ FFN saved: probe_L16_attn_run4.pt
+✅ FFN saved: probe_L17_attn_run0.pt
+L17 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.825 (Run 0)
+✅ FFN saved: probe_L17_attn_run1.pt
+✅ FFN saved: probe_L17_attn_run2.pt
+✅ FFN saved: probe_L17_attn_run3.pt
+✅ FFN saved: probe_L17_attn_run4.pt
+✅ FFN saved: probe_L18_attn_run0.pt
+L18 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.637 (Run 0)
+✅ FFN saved: probe_L18_attn_run1.pt
+✅ FFN saved: probe_L18_attn_run2.pt
+✅ FFN saved: probe_L18_attn_run3.pt
+✅ FFN saved: probe_L18_attn_run4.pt
+✅ FFN saved: probe_L19_attn_run0.pt
+L19 attn (ffn) | Test ACC: 0.792 | Test AUC: 0.719 (Run 0)
+✅ FFN saved: probe_L19_attn_run1.pt
+✅ FFN saved: probe_L19_attn_run2.pt
+✅ FFN saved: probe_L19_attn_run3.pt
+✅ FFN saved: probe_L19_attn_run4.pt
+✅ FFN saved: probe_L20_attn_run0.pt
+L20 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ FFN saved: probe_L20_attn_run1.pt
+✅ FFN saved: probe_L20_attn_run2.pt
+✅ FFN saved: probe_L20_attn_run3.pt
+✅ FFN saved: probe_L20_attn_run4.pt
+✅ FFN saved: probe_L21_attn_run0.pt
+L21 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.691 (Run 0)
+✅ FFN saved: probe_L21_attn_run1.pt
+✅ FFN saved: probe_L21_attn_run2.pt
+✅ FFN saved: probe_L21_attn_run3.pt
+✅ FFN saved: probe_L21_attn_run4.pt
+✅ FFN saved: probe_L22_attn_run0.pt
+L22 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.741 (Run 0)
+✅ FFN saved: probe_L22_attn_run1.pt
+✅ FFN saved: probe_L22_attn_run2.pt
+✅ FFN saved: probe_L22_attn_run3.pt
+✅ FFN saved: probe_L22_attn_run4.pt
+✅ FFN saved: probe_L23_attn_run0.pt
+L23 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.708 (Run 0)
+✅ FFN saved: probe_L23_attn_run1.pt
+✅ FFN saved: probe_L23_attn_run2.pt
+✅ FFN saved: probe_L23_attn_run3.pt
+✅ FFN saved: probe_L23_attn_run4.pt
+✅ FFN saved: probe_L24_attn_run0.pt
+L24 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.614 (Run 0)
+✅ FFN saved: probe_L24_attn_run1.pt
+✅ FFN saved: probe_L24_attn_run2.pt
+✅ FFN saved: probe_L24_attn_run3.pt
+✅ FFN saved: probe_L24_attn_run4.pt
+✅ FFN saved: probe_L25_attn_run0.pt
+L25 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.741 (Run 0)
+✅ FFN saved: probe_L25_attn_run1.pt
+✅ FFN saved: probe_L25_attn_run2.pt
+✅ FFN saved: probe_L25_attn_run3.pt
+✅ FFN saved: probe_L25_attn_run4.pt
+✅ FFN saved: probe_L26_attn_run0.pt
+L26 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.715 (Run 0)
+✅ FFN saved: probe_L26_attn_run1.pt
+✅ FFN saved: probe_L26_attn_run2.pt
+✅ FFN saved: probe_L26_attn_run3.pt
+✅ FFN saved: probe_L26_attn_run4.pt
+✅ FFN saved: probe_L27_attn_run0.pt
+L27 attn (ffn) | Test ACC: 0.792 | Test AUC: 0.675 (Run 0)
+✅ FFN saved: probe_L27_attn_run1.pt
+✅ FFN saved: probe_L27_attn_run2.pt
+✅ FFN saved: probe_L27_attn_run3.pt
+✅ FFN saved: probe_L27_attn_run4.pt
+✅ FFN saved: probe_L28_attn_run0.pt
+L28 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ FFN saved: probe_L28_attn_run1.pt
+✅ FFN saved: probe_L28_attn_run2.pt
+✅ FFN saved: probe_L28_attn_run3.pt
+✅ FFN saved: probe_L28_attn_run4.pt
+✅ FFN saved: probe_L29_attn_run0.pt
+L29 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.776 (Run 0)
+✅ FFN saved: probe_L29_attn_run1.pt
+✅ FFN saved: probe_L29_attn_run2.pt
+✅ FFN saved: probe_L29_attn_run3.pt
+✅ FFN saved: probe_L29_attn_run4.pt
+✅ FFN saved: probe_L30_attn_run0.pt
+L30 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ FFN saved: probe_L30_attn_run1.pt
+✅ FFN saved: probe_L30_attn_run2.pt
+✅ FFN saved: probe_L30_attn_run3.pt
+✅ FFN saved: probe_L30_attn_run4.pt
+✅ FFN saved: probe_L31_attn_run0.pt
+L31 attn (ffn) | Test ACC: 0.805 | Test AUC: 0.670 (Run 0)
+✅ FFN saved: probe_L31_attn_run1.pt
+✅ FFN saved: probe_L31_attn_run2.pt
+✅ FFN saved: probe_L31_attn_run3.pt
+✅ FFN saved: probe_L31_attn_run4.pt
+
+[SVM] Training and Evaluation...
+✅ SVM saved: probe_L0_hidden_run0.joblib
+L0 hidden (svm) | Test ACC: 0.792 | Test AUC: 0.590 (Run 0)
+✅ SVM saved: probe_L0_hidden_run1.joblib
+✅ SVM saved: probe_L0_hidden_run2.joblib
+✅ SVM saved: probe_L0_hidden_run3.joblib
+✅ SVM saved: probe_L0_hidden_run4.joblib
+✅ SVM saved: probe_L1_hidden_run0.joblib
+L1 hidden (svm) | Test ACC: 0.779 | Test AUC: 0.630 (Run 0)
+✅ SVM saved: probe_L1_hidden_run1.joblib
+✅ SVM saved: probe_L1_hidden_run2.joblib
+✅ SVM saved: probe_L1_hidden_run3.joblib
+✅ SVM saved: probe_L1_hidden_run4.joblib
+✅ SVM saved: probe_L2_hidden_run0.joblib
+L2 hidden (svm) | Test ACC: 0.792 | Test AUC: 0.518 (Run 0)
+✅ SVM saved: probe_L2_hidden_run1.joblib
+✅ SVM saved: probe_L2_hidden_run2.joblib
+✅ SVM saved: probe_L2_hidden_run3.joblib
+✅ SVM saved: probe_L2_hidden_run4.joblib
+✅ SVM saved: probe_L3_hidden_run0.joblib
+L3 hidden (svm) | Test ACC: 0.792 | Test AUC: 0.522 (Run 0)
+✅ SVM saved: probe_L3_hidden_run1.joblib
+✅ SVM saved: probe_L3_hidden_run2.joblib
+✅ SVM saved: probe_L3_hidden_run3.joblib
+✅ SVM saved: probe_L3_hidden_run4.joblib
+✅ SVM saved: probe_L4_hidden_run0.joblib
+L4 hidden (svm) | Test ACC: 0.792 | Test AUC: 0.522 (Run 0)
+✅ SVM saved: probe_L4_hidden_run1.joblib
+✅ SVM saved: probe_L4_hidden_run2.joblib
+✅ SVM saved: probe_L4_hidden_run3.joblib
+✅ SVM saved: probe_L4_hidden_run4.joblib
+✅ SVM saved: probe_L5_hidden_run0.joblib
+L5 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.668 (Run 0)
+✅ SVM saved: probe_L5_hidden_run1.joblib
+✅ SVM saved: probe_L5_hidden_run2.joblib
+✅ SVM saved: probe_L5_hidden_run3.joblib
+✅ SVM saved: probe_L5_hidden_run4.joblib
+✅ SVM saved: probe_L6_hidden_run0.joblib
+L6 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.680 (Run 0)
+✅ SVM saved: probe_L6_hidden_run1.joblib
+✅ SVM saved: probe_L6_hidden_run2.joblib
+✅ SVM saved: probe_L6_hidden_run3.joblib
+✅ SVM saved: probe_L6_hidden_run4.joblib
+✅ SVM saved: probe_L7_hidden_run0.joblib
+L7 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.635 (Run 0)
+✅ SVM saved: probe_L7_hidden_run1.joblib
+✅ SVM saved: probe_L7_hidden_run2.joblib
+✅ SVM saved: probe_L7_hidden_run3.joblib
+✅ SVM saved: probe_L7_hidden_run4.joblib
+✅ SVM saved: probe_L8_hidden_run0.joblib
+L8 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.640 (Run 0)
+✅ SVM saved: probe_L8_hidden_run1.joblib
+✅ SVM saved: probe_L8_hidden_run2.joblib
+✅ SVM saved: probe_L8_hidden_run3.joblib
+✅ SVM saved: probe_L8_hidden_run4.joblib
+✅ SVM saved: probe_L9_hidden_run0.joblib
+L9 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.670 (Run 0)
+✅ SVM saved: probe_L9_hidden_run1.joblib
+✅ SVM saved: probe_L9_hidden_run2.joblib
+✅ SVM saved: probe_L9_hidden_run3.joblib
+✅ SVM saved: probe_L9_hidden_run4.joblib
+✅ SVM saved: probe_L10_hidden_run0.joblib
+L10 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.637 (Run 0)
+✅ SVM saved: probe_L10_hidden_run1.joblib
+✅ SVM saved: probe_L10_hidden_run2.joblib
+✅ SVM saved: probe_L10_hidden_run3.joblib
+✅ SVM saved: probe_L10_hidden_run4.joblib
+✅ SVM saved: probe_L11_hidden_run0.joblib
+L11 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.647 (Run 0)
+✅ SVM saved: probe_L11_hidden_run1.joblib
+✅ SVM saved: probe_L11_hidden_run2.joblib
+✅ SVM saved: probe_L11_hidden_run3.joblib
+✅ SVM saved: probe_L11_hidden_run4.joblib
+✅ SVM saved: probe_L12_hidden_run0.joblib
+L12 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.642 (Run 0)
+✅ SVM saved: probe_L12_hidden_run1.joblib
+✅ SVM saved: probe_L12_hidden_run2.joblib
+✅ SVM saved: probe_L12_hidden_run3.joblib
+✅ SVM saved: probe_L12_hidden_run4.joblib
+✅ SVM saved: probe_L13_hidden_run0.joblib
+L13 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ SVM saved: probe_L13_hidden_run1.joblib
+✅ SVM saved: probe_L13_hidden_run2.joblib
+✅ SVM saved: probe_L13_hidden_run3.joblib
+✅ SVM saved: probe_L13_hidden_run4.joblib
+✅ SVM saved: probe_L14_hidden_run0.joblib
+L14 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.543 (Run 0)
+✅ SVM saved: probe_L14_hidden_run1.joblib
+✅ SVM saved: probe_L14_hidden_run2.joblib
+✅ SVM saved: probe_L14_hidden_run3.joblib
+✅ SVM saved: probe_L14_hidden_run4.joblib
+✅ SVM saved: probe_L15_hidden_run0.joblib
+L15 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.543 (Run 0)
+✅ SVM saved: probe_L15_hidden_run1.joblib
+✅ SVM saved: probe_L15_hidden_run2.joblib
+✅ SVM saved: probe_L15_hidden_run3.joblib
+✅ SVM saved: probe_L15_hidden_run4.joblib
+✅ SVM saved: probe_L16_hidden_run0.joblib
+L16 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.560 (Run 0)
+✅ SVM saved: probe_L16_hidden_run1.joblib
+✅ SVM saved: probe_L16_hidden_run2.joblib
+✅ SVM saved: probe_L16_hidden_run3.joblib
+✅ SVM saved: probe_L16_hidden_run4.joblib
+✅ SVM saved: probe_L17_hidden_run0.joblib
+L17 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.600 (Run 0)
+✅ SVM saved: probe_L17_hidden_run1.joblib
+✅ SVM saved: probe_L17_hidden_run2.joblib
+✅ SVM saved: probe_L17_hidden_run3.joblib
+✅ SVM saved: probe_L17_hidden_run4.joblib
+✅ SVM saved: probe_L18_hidden_run0.joblib
+L18 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.581 (Run 0)
+✅ SVM saved: probe_L18_hidden_run1.joblib
+✅ SVM saved: probe_L18_hidden_run2.joblib
+✅ SVM saved: probe_L18_hidden_run3.joblib
+✅ SVM saved: probe_L18_hidden_run4.joblib
+✅ SVM saved: probe_L19_hidden_run0.joblib
+L19 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.604 (Run 0)
+✅ SVM saved: probe_L19_hidden_run1.joblib
+✅ SVM saved: probe_L19_hidden_run2.joblib
+✅ SVM saved: probe_L19_hidden_run3.joblib
+✅ SVM saved: probe_L19_hidden_run4.joblib
+✅ SVM saved: probe_L20_hidden_run0.joblib
+L20 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.541 (Run 0)
+✅ SVM saved: probe_L20_hidden_run1.joblib
+✅ SVM saved: probe_L20_hidden_run2.joblib
+✅ SVM saved: probe_L20_hidden_run3.joblib
+✅ SVM saved: probe_L20_hidden_run4.joblib
+✅ SVM saved: probe_L21_hidden_run0.joblib
+L21 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.595 (Run 0)
+✅ SVM saved: probe_L21_hidden_run1.joblib
+✅ SVM saved: probe_L21_hidden_run2.joblib
+✅ SVM saved: probe_L21_hidden_run3.joblib
+✅ SVM saved: probe_L21_hidden_run4.joblib
+✅ SVM saved: probe_L22_hidden_run0.joblib
+L22 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.600 (Run 0)
+✅ SVM saved: probe_L22_hidden_run1.joblib
+✅ SVM saved: probe_L22_hidden_run2.joblib
+✅ SVM saved: probe_L22_hidden_run3.joblib
+✅ SVM saved: probe_L22_hidden_run4.joblib
+✅ SVM saved: probe_L23_hidden_run0.joblib
+L23 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.609 (Run 0)
+✅ SVM saved: probe_L23_hidden_run1.joblib
+✅ SVM saved: probe_L23_hidden_run2.joblib
+✅ SVM saved: probe_L23_hidden_run3.joblib
+✅ SVM saved: probe_L23_hidden_run4.joblib
+✅ SVM saved: probe_L24_hidden_run0.joblib
+L24 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.604 (Run 0)
+✅ SVM saved: probe_L24_hidden_run1.joblib
+✅ SVM saved: probe_L24_hidden_run2.joblib
+✅ SVM saved: probe_L24_hidden_run3.joblib
+✅ SVM saved: probe_L24_hidden_run4.joblib
+✅ SVM saved: probe_L25_hidden_run0.joblib
+L25 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.579 (Run 0)
+✅ SVM saved: probe_L25_hidden_run1.joblib
+✅ SVM saved: probe_L25_hidden_run2.joblib
+✅ SVM saved: probe_L25_hidden_run3.joblib
+✅ SVM saved: probe_L25_hidden_run4.joblib
+✅ SVM saved: probe_L26_hidden_run0.joblib
+L26 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.642 (Run 0)
+✅ SVM saved: probe_L26_hidden_run1.joblib
+✅ SVM saved: probe_L26_hidden_run2.joblib
+✅ SVM saved: probe_L26_hidden_run3.joblib
+✅ SVM saved: probe_L26_hidden_run4.joblib
+✅ SVM saved: probe_L27_hidden_run0.joblib
+L27 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.668 (Run 0)
+✅ SVM saved: probe_L27_hidden_run1.joblib
+✅ SVM saved: probe_L27_hidden_run2.joblib
+✅ SVM saved: probe_L27_hidden_run3.joblib
+✅ SVM saved: probe_L27_hidden_run4.joblib
+✅ SVM saved: probe_L28_hidden_run0.joblib
+L28 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.673 (Run 0)
+✅ SVM saved: probe_L28_hidden_run1.joblib
+✅ SVM saved: probe_L28_hidden_run2.joblib
+✅ SVM saved: probe_L28_hidden_run3.joblib
+✅ SVM saved: probe_L28_hidden_run4.joblib
+✅ SVM saved: probe_L29_hidden_run0.joblib
+L29 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ SVM saved: probe_L29_hidden_run1.joblib
+✅ SVM saved: probe_L29_hidden_run2.joblib
+✅ SVM saved: probe_L29_hidden_run3.joblib
+✅ SVM saved: probe_L29_hidden_run4.joblib
+✅ SVM saved: probe_L30_hidden_run0.joblib
+L30 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.682 (Run 0)
+✅ SVM saved: probe_L30_hidden_run1.joblib
+✅ SVM saved: probe_L30_hidden_run2.joblib
+✅ SVM saved: probe_L30_hidden_run3.joblib
+✅ SVM saved: probe_L30_hidden_run4.joblib
+✅ SVM saved: probe_L31_hidden_run0.joblib
+L31 hidden (svm) | Test ACC: 0.805 | Test AUC: 0.719 (Run 0)
+✅ SVM saved: probe_L31_hidden_run1.joblib
+✅ SVM saved: probe_L31_hidden_run2.joblib
+✅ SVM saved: probe_L31_hidden_run3.joblib
+✅ SVM saved: probe_L31_hidden_run4.joblib
+✅ SVM saved: probe_L0_mlp_run0.joblib
+L0 mlp (svm) | Test ACC: 0.792 | Test AUC: 0.717 (Run 0)
+✅ SVM saved: probe_L0_mlp_run1.joblib
+✅ SVM saved: probe_L0_mlp_run2.joblib
+✅ SVM saved: probe_L0_mlp_run3.joblib
+✅ SVM saved: probe_L0_mlp_run4.joblib
+✅ SVM saved: probe_L1_mlp_run0.joblib
+L1 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.722 (Run 0)
+✅ SVM saved: probe_L1_mlp_run1.joblib
+✅ SVM saved: probe_L1_mlp_run2.joblib
+✅ SVM saved: probe_L1_mlp_run3.joblib
+✅ SVM saved: probe_L1_mlp_run4.joblib
+✅ SVM saved: probe_L2_mlp_run0.joblib
+L2 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.651 (Run 0)
+✅ SVM saved: probe_L2_mlp_run1.joblib
+✅ SVM saved: probe_L2_mlp_run2.joblib
+✅ SVM saved: probe_L2_mlp_run3.joblib
+✅ SVM saved: probe_L2_mlp_run4.joblib
+✅ SVM saved: probe_L3_mlp_run0.joblib
+L3 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.743 (Run 0)
+✅ SVM saved: probe_L3_mlp_run1.joblib
+✅ SVM saved: probe_L3_mlp_run2.joblib
+✅ SVM saved: probe_L3_mlp_run3.joblib
+✅ SVM saved: probe_L3_mlp_run4.joblib
+✅ SVM saved: probe_L4_mlp_run0.joblib
+L4 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.741 (Run 0)
+✅ SVM saved: probe_L4_mlp_run1.joblib
+✅ SVM saved: probe_L4_mlp_run2.joblib
+✅ SVM saved: probe_L4_mlp_run3.joblib
+✅ SVM saved: probe_L4_mlp_run4.joblib
+✅ SVM saved: probe_L5_mlp_run0.joblib
+L5 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.630 (Run 0)
+✅ SVM saved: probe_L5_mlp_run1.joblib
+✅ SVM saved: probe_L5_mlp_run2.joblib
+✅ SVM saved: probe_L5_mlp_run3.joblib
+✅ SVM saved: probe_L5_mlp_run4.joblib
+✅ SVM saved: probe_L6_mlp_run0.joblib
+L6 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.687 (Run 0)
+✅ SVM saved: probe_L6_mlp_run1.joblib
+✅ SVM saved: probe_L6_mlp_run2.joblib
+✅ SVM saved: probe_L6_mlp_run3.joblib
+✅ SVM saved: probe_L6_mlp_run4.joblib
+✅ SVM saved: probe_L7_mlp_run0.joblib
+L7 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.680 (Run 0)
+✅ SVM saved: probe_L7_mlp_run1.joblib
+✅ SVM saved: probe_L7_mlp_run2.joblib
+✅ SVM saved: probe_L7_mlp_run3.joblib
+✅ SVM saved: probe_L7_mlp_run4.joblib
+✅ SVM saved: probe_L8_mlp_run0.joblib
+L8 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.656 (Run 0)
+✅ SVM saved: probe_L8_mlp_run1.joblib
+✅ SVM saved: probe_L8_mlp_run2.joblib
+✅ SVM saved: probe_L8_mlp_run3.joblib
+✅ SVM saved: probe_L8_mlp_run4.joblib
+✅ SVM saved: probe_L9_mlp_run0.joblib
+L9 mlp (svm) | Test ACC: 0.792 | Test AUC: 0.637 (Run 0)
+✅ SVM saved: probe_L9_mlp_run1.joblib
+✅ SVM saved: probe_L9_mlp_run2.joblib
+✅ SVM saved: probe_L9_mlp_run3.joblib
+✅ SVM saved: probe_L9_mlp_run4.joblib
+✅ SVM saved: probe_L10_mlp_run0.joblib
+L10 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.680 (Run 0)
+✅ SVM saved: probe_L10_mlp_run1.joblib
+✅ SVM saved: probe_L10_mlp_run2.joblib
+✅ SVM saved: probe_L10_mlp_run3.joblib
+✅ SVM saved: probe_L10_mlp_run4.joblib
+✅ SVM saved: probe_L11_mlp_run0.joblib
+L11 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.705 (Run 0)
+✅ SVM saved: probe_L11_mlp_run1.joblib
+✅ SVM saved: probe_L11_mlp_run2.joblib
+✅ SVM saved: probe_L11_mlp_run3.joblib
+✅ SVM saved: probe_L11_mlp_run4.joblib
+✅ SVM saved: probe_L12_mlp_run0.joblib
+L12 mlp (svm) | Test ACC: 0.792 | Test AUC: 0.644 (Run 0)
+✅ SVM saved: probe_L12_mlp_run1.joblib
+✅ SVM saved: probe_L12_mlp_run2.joblib
+✅ SVM saved: probe_L12_mlp_run3.joblib
+✅ SVM saved: probe_L12_mlp_run4.joblib
+✅ SVM saved: probe_L13_mlp_run0.joblib
+L13 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.590 (Run 0)
+✅ SVM saved: probe_L13_mlp_run1.joblib
+✅ SVM saved: probe_L13_mlp_run2.joblib
+✅ SVM saved: probe_L13_mlp_run3.joblib
+✅ SVM saved: probe_L13_mlp_run4.joblib
+✅ SVM saved: probe_L14_mlp_run0.joblib
+L14 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.626 (Run 0)
+✅ SVM saved: probe_L14_mlp_run1.joblib
+✅ SVM saved: probe_L14_mlp_run2.joblib
+✅ SVM saved: probe_L14_mlp_run3.joblib
+✅ SVM saved: probe_L14_mlp_run4.joblib
+✅ SVM saved: probe_L15_mlp_run0.joblib
+L15 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.675 (Run 0)
+✅ SVM saved: probe_L15_mlp_run1.joblib
+✅ SVM saved: probe_L15_mlp_run2.joblib
+✅ SVM saved: probe_L15_mlp_run3.joblib
+✅ SVM saved: probe_L15_mlp_run4.joblib
+✅ SVM saved: probe_L16_mlp_run0.joblib
+L16 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.705 (Run 0)
+✅ SVM saved: probe_L16_mlp_run1.joblib
+✅ SVM saved: probe_L16_mlp_run2.joblib
+✅ SVM saved: probe_L16_mlp_run3.joblib
+✅ SVM saved: probe_L16_mlp_run4.joblib
+✅ SVM saved: probe_L17_mlp_run0.joblib
+L17 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.602 (Run 0)
+✅ SVM saved: probe_L17_mlp_run1.joblib
+✅ SVM saved: probe_L17_mlp_run2.joblib
+✅ SVM saved: probe_L17_mlp_run3.joblib
+✅ SVM saved: probe_L17_mlp_run4.joblib
+✅ SVM saved: probe_L18_mlp_run0.joblib
+L18 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.703 (Run 0)
+✅ SVM saved: probe_L18_mlp_run1.joblib
+✅ SVM saved: probe_L18_mlp_run2.joblib
+✅ SVM saved: probe_L18_mlp_run3.joblib
+✅ SVM saved: probe_L18_mlp_run4.joblib
+✅ SVM saved: probe_L19_mlp_run0.joblib
+L19 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.658 (Run 0)
+✅ SVM saved: probe_L19_mlp_run1.joblib
+✅ SVM saved: probe_L19_mlp_run2.joblib
+✅ SVM saved: probe_L19_mlp_run3.joblib
+✅ SVM saved: probe_L19_mlp_run4.joblib
+✅ SVM saved: probe_L20_mlp_run0.joblib
+L20 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.633 (Run 0)
+✅ SVM saved: probe_L20_mlp_run1.joblib
+✅ SVM saved: probe_L20_mlp_run2.joblib
+✅ SVM saved: probe_L20_mlp_run3.joblib
+✅ SVM saved: probe_L20_mlp_run4.joblib
+✅ SVM saved: probe_L21_mlp_run0.joblib
+L21 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.703 (Run 0)
+✅ SVM saved: probe_L21_mlp_run1.joblib
+✅ SVM saved: probe_L21_mlp_run2.joblib
+✅ SVM saved: probe_L21_mlp_run3.joblib
+✅ SVM saved: probe_L21_mlp_run4.joblib
+✅ SVM saved: probe_L22_mlp_run0.joblib
+L22 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.597 (Run 0)
+✅ SVM saved: probe_L22_mlp_run1.joblib
+✅ SVM saved: probe_L22_mlp_run2.joblib
+✅ SVM saved: probe_L22_mlp_run3.joblib
+✅ SVM saved: probe_L22_mlp_run4.joblib
+✅ SVM saved: probe_L23_mlp_run0.joblib
+L23 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.635 (Run 0)
+✅ SVM saved: probe_L23_mlp_run1.joblib
+✅ SVM saved: probe_L23_mlp_run2.joblib
+✅ SVM saved: probe_L23_mlp_run3.joblib
+✅ SVM saved: probe_L23_mlp_run4.joblib
+✅ SVM saved: probe_L24_mlp_run0.joblib
+L24 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.689 (Run 0)
+✅ SVM saved: probe_L24_mlp_run1.joblib
+✅ SVM saved: probe_L24_mlp_run2.joblib
+✅ SVM saved: probe_L24_mlp_run3.joblib
+✅ SVM saved: probe_L24_mlp_run4.joblib
+✅ SVM saved: probe_L25_mlp_run0.joblib
+L25 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.673 (Run 0)
+✅ SVM saved: probe_L25_mlp_run1.joblib
+✅ SVM saved: probe_L25_mlp_run2.joblib
+✅ SVM saved: probe_L25_mlp_run3.joblib
+✅ SVM saved: probe_L25_mlp_run4.joblib
+✅ SVM saved: probe_L26_mlp_run0.joblib
+L26 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.769 (Run 0)
+✅ SVM saved: probe_L26_mlp_run1.joblib
+✅ SVM saved: probe_L26_mlp_run2.joblib
+✅ SVM saved: probe_L26_mlp_run3.joblib
+✅ SVM saved: probe_L26_mlp_run4.joblib
+✅ SVM saved: probe_L27_mlp_run0.joblib
+L27 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.759 (Run 0)
+✅ SVM saved: probe_L27_mlp_run1.joblib
+✅ SVM saved: probe_L27_mlp_run2.joblib
+✅ SVM saved: probe_L27_mlp_run3.joblib
+✅ SVM saved: probe_L27_mlp_run4.joblib
+✅ SVM saved: probe_L28_mlp_run0.joblib
+L28 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ SVM saved: probe_L28_mlp_run1.joblib
+✅ SVM saved: probe_L28_mlp_run2.joblib
+✅ SVM saved: probe_L28_mlp_run3.joblib
+✅ SVM saved: probe_L28_mlp_run4.joblib
+✅ SVM saved: probe_L29_mlp_run0.joblib
+L29 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.759 (Run 0)
+✅ SVM saved: probe_L29_mlp_run1.joblib
+✅ SVM saved: probe_L29_mlp_run2.joblib
+✅ SVM saved: probe_L29_mlp_run3.joblib
+✅ SVM saved: probe_L29_mlp_run4.joblib
+✅ SVM saved: probe_L30_mlp_run0.joblib
+L30 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.682 (Run 0)
+✅ SVM saved: probe_L30_mlp_run1.joblib
+✅ SVM saved: probe_L30_mlp_run2.joblib
+✅ SVM saved: probe_L30_mlp_run3.joblib
+✅ SVM saved: probe_L30_mlp_run4.joblib
+✅ SVM saved: probe_L31_mlp_run0.joblib
+L31 mlp (svm) | Test ACC: 0.805 | Test AUC: 0.708 (Run 0)
+✅ SVM saved: probe_L31_mlp_run1.joblib
+✅ SVM saved: probe_L31_mlp_run2.joblib
+✅ SVM saved: probe_L31_mlp_run3.joblib
+✅ SVM saved: probe_L31_mlp_run4.joblib
+✅ SVM saved: probe_L0_attn_run0.joblib
+L0 attn (svm) | Test ACC: 0.805 | Test AUC: 0.762 (Run 0)
+✅ SVM saved: probe_L0_attn_run1.joblib
+✅ SVM saved: probe_L0_attn_run2.joblib
+✅ SVM saved: probe_L0_attn_run3.joblib
+✅ SVM saved: probe_L0_attn_run4.joblib
+✅ SVM saved: probe_L1_attn_run0.joblib
+L1 attn (svm) | Test ACC: 0.805 | Test AUC: 0.792 (Run 0)
+✅ SVM saved: probe_L1_attn_run1.joblib
+✅ SVM saved: probe_L1_attn_run2.joblib
+✅ SVM saved: probe_L1_attn_run3.joblib
+✅ SVM saved: probe_L1_attn_run4.joblib
+✅ SVM saved: probe_L2_attn_run0.joblib
+L2 attn (svm) | Test ACC: 0.805 | Test AUC: 0.719 (Run 0)
+✅ SVM saved: probe_L2_attn_run1.joblib
+✅ SVM saved: probe_L2_attn_run2.joblib
+✅ SVM saved: probe_L2_attn_run3.joblib
+✅ SVM saved: probe_L2_attn_run4.joblib
+✅ SVM saved: probe_L3_attn_run0.joblib
+L3 attn (svm) | Test ACC: 0.805 | Test AUC: 0.776 (Run 0)
+✅ SVM saved: probe_L3_attn_run1.joblib
+✅ SVM saved: probe_L3_attn_run2.joblib
+✅ SVM saved: probe_L3_attn_run3.joblib
+✅ SVM saved: probe_L3_attn_run4.joblib
+✅ SVM saved: probe_L4_attn_run0.joblib
+L4 attn (svm) | Test ACC: 0.805 | Test AUC: 0.795 (Run 0)
+✅ SVM saved: probe_L4_attn_run1.joblib
+✅ SVM saved: probe_L4_attn_run2.joblib
+✅ SVM saved: probe_L4_attn_run3.joblib
+✅ SVM saved: probe_L4_attn_run4.joblib
+✅ SVM saved: probe_L5_attn_run0.joblib
+L5 attn (svm) | Test ACC: 0.792 | Test AUC: 0.804 (Run 0)
+✅ SVM saved: probe_L5_attn_run1.joblib
+✅ SVM saved: probe_L5_attn_run2.joblib
+✅ SVM saved: probe_L5_attn_run3.joblib
+✅ SVM saved: probe_L5_attn_run4.joblib
+✅ SVM saved: probe_L6_attn_run0.joblib
+L6 attn (svm) | Test ACC: 0.805 | Test AUC: 0.738 (Run 0)
+✅ SVM saved: probe_L6_attn_run1.joblib
+✅ SVM saved: probe_L6_attn_run2.joblib
+✅ SVM saved: probe_L6_attn_run3.joblib
+✅ SVM saved: probe_L6_attn_run4.joblib
+✅ SVM saved: probe_L7_attn_run0.joblib
+L7 attn (svm) | Test ACC: 0.805 | Test AUC: 0.771 (Run 0)
+✅ SVM saved: probe_L7_attn_run1.joblib
+✅ SVM saved: probe_L7_attn_run2.joblib
+✅ SVM saved: probe_L7_attn_run3.joblib
+✅ SVM saved: probe_L7_attn_run4.joblib
+✅ SVM saved: probe_L8_attn_run0.joblib
+L8 attn (svm) | Test ACC: 0.805 | Test AUC: 0.759 (Run 0)
+✅ SVM saved: probe_L8_attn_run1.joblib
+✅ SVM saved: probe_L8_attn_run2.joblib
+✅ SVM saved: probe_L8_attn_run3.joblib
+✅ SVM saved: probe_L8_attn_run4.joblib
+✅ SVM saved: probe_L9_attn_run0.joblib
+L9 attn (svm) | Test ACC: 0.805 | Test AUC: 0.637 (Run 0)
+✅ SVM saved: probe_L9_attn_run1.joblib
+✅ SVM saved: probe_L9_attn_run2.joblib
+✅ SVM saved: probe_L9_attn_run3.joblib
+✅ SVM saved: probe_L9_attn_run4.joblib
+✅ SVM saved: probe_L10_attn_run0.joblib
+L10 attn (svm) | Test ACC: 0.805 | Test AUC: 0.673 (Run 0)
+✅ SVM saved: probe_L10_attn_run1.joblib
+✅ SVM saved: probe_L10_attn_run2.joblib
+✅ SVM saved: probe_L10_attn_run3.joblib
+✅ SVM saved: probe_L10_attn_run4.joblib
+✅ SVM saved: probe_L11_attn_run0.joblib
+L11 attn (svm) | Test ACC: 0.805 | Test AUC: 0.626 (Run 0)
+✅ SVM saved: probe_L11_attn_run1.joblib
+✅ SVM saved: probe_L11_attn_run2.joblib
+✅ SVM saved: probe_L11_attn_run3.joblib
+✅ SVM saved: probe_L11_attn_run4.joblib
+✅ SVM saved: probe_L12_attn_run0.joblib
+L12 attn (svm) | Test ACC: 0.805 | Test AUC: 0.663 (Run 0)
+✅ SVM saved: probe_L12_attn_run1.joblib
+✅ SVM saved: probe_L12_attn_run2.joblib
+✅ SVM saved: probe_L12_attn_run3.joblib
+✅ SVM saved: probe_L12_attn_run4.joblib
+✅ SVM saved: probe_L13_attn_run0.joblib
+L13 attn (svm) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ SVM saved: probe_L13_attn_run1.joblib
+✅ SVM saved: probe_L13_attn_run2.joblib
+✅ SVM saved: probe_L13_attn_run3.joblib
+✅ SVM saved: probe_L13_attn_run4.joblib
+✅ SVM saved: probe_L14_attn_run0.joblib
+L14 attn (svm) | Test ACC: 0.805 | Test AUC: 0.677 (Run 0)
+✅ SVM saved: probe_L14_attn_run1.joblib
+✅ SVM saved: probe_L14_attn_run2.joblib
+✅ SVM saved: probe_L14_attn_run3.joblib
+✅ SVM saved: probe_L14_attn_run4.joblib
+✅ SVM saved: probe_L15_attn_run0.joblib
+L15 attn (svm) | Test ACC: 0.805 | Test AUC: 0.668 (Run 0)
+✅ SVM saved: probe_L15_attn_run1.joblib
+✅ SVM saved: probe_L15_attn_run2.joblib
+✅ SVM saved: probe_L15_attn_run3.joblib
+✅ SVM saved: probe_L15_attn_run4.joblib
+✅ SVM saved: probe_L16_attn_run0.joblib
+L16 attn (svm) | Test ACC: 0.805 | Test AUC: 0.637 (Run 0)
+✅ SVM saved: probe_L16_attn_run1.joblib
+✅ SVM saved: probe_L16_attn_run2.joblib
+✅ SVM saved: probe_L16_attn_run3.joblib
+✅ SVM saved: probe_L16_attn_run4.joblib
+✅ SVM saved: probe_L17_attn_run0.joblib
+L17 attn (svm) | Test ACC: 0.805 | Test AUC: 0.797 (Run 0)
+✅ SVM saved: probe_L17_attn_run1.joblib
+✅ SVM saved: probe_L17_attn_run2.joblib
+✅ SVM saved: probe_L17_attn_run3.joblib
+✅ SVM saved: probe_L17_attn_run4.joblib
+✅ SVM saved: probe_L18_attn_run0.joblib
+L18 attn (svm) | Test ACC: 0.805 | Test AUC: 0.616 (Run 0)
+✅ SVM saved: probe_L18_attn_run1.joblib
+✅ SVM saved: probe_L18_attn_run2.joblib
+✅ SVM saved: probe_L18_attn_run3.joblib
+✅ SVM saved: probe_L18_attn_run4.joblib
+✅ SVM saved: probe_L19_attn_run0.joblib
+L19 attn (svm) | Test ACC: 0.792 | Test AUC: 0.698 (Run 0)
+✅ SVM saved: probe_L19_attn_run1.joblib
+✅ SVM saved: probe_L19_attn_run2.joblib
+✅ SVM saved: probe_L19_attn_run3.joblib
+✅ SVM saved: probe_L19_attn_run4.joblib
+✅ SVM saved: probe_L20_attn_run0.joblib
+L20 attn (svm) | Test ACC: 0.805 | Test AUC: 0.656 (Run 0)
+✅ SVM saved: probe_L20_attn_run1.joblib
+✅ SVM saved: probe_L20_attn_run2.joblib
+✅ SVM saved: probe_L20_attn_run3.joblib
+✅ SVM saved: probe_L20_attn_run4.joblib
+✅ SVM saved: probe_L21_attn_run0.joblib
+L21 attn (svm) | Test ACC: 0.805 | Test AUC: 0.698 (Run 0)
+✅ SVM saved: probe_L21_attn_run1.joblib
+✅ SVM saved: probe_L21_attn_run2.joblib
+✅ SVM saved: probe_L21_attn_run3.joblib
+✅ SVM saved: probe_L21_attn_run4.joblib
+✅ SVM saved: probe_L22_attn_run0.joblib
+L22 attn (svm) | Test ACC: 0.805 | Test AUC: 0.710 (Run 0)
+✅ SVM saved: probe_L22_attn_run1.joblib
+✅ SVM saved: probe_L22_attn_run2.joblib
+✅ SVM saved: probe_L22_attn_run3.joblib
+✅ SVM saved: probe_L22_attn_run4.joblib
+✅ SVM saved: probe_L23_attn_run0.joblib
+L23 attn (svm) | Test ACC: 0.805 | Test AUC: 0.762 (Run 0)
+✅ SVM saved: probe_L23_attn_run1.joblib
+✅ SVM saved: probe_L23_attn_run2.joblib
+✅ SVM saved: probe_L23_attn_run3.joblib
+✅ SVM saved: probe_L23_attn_run4.joblib
+✅ SVM saved: probe_L24_attn_run0.joblib
+L24 attn (svm) | Test ACC: 0.805 | Test AUC: 0.621 (Run 0)
+✅ SVM saved: probe_L24_attn_run1.joblib
+✅ SVM saved: probe_L24_attn_run2.joblib
+✅ SVM saved: probe_L24_attn_run3.joblib
+✅ SVM saved: probe_L24_attn_run4.joblib
+✅ SVM saved: probe_L25_attn_run0.joblib
+L25 attn (svm) | Test ACC: 0.805 | Test AUC: 0.722 (Run 0)
+✅ SVM saved: probe_L25_attn_run1.joblib
+✅ SVM saved: probe_L25_attn_run2.joblib
+✅ SVM saved: probe_L25_attn_run3.joblib
+✅ SVM saved: probe_L25_attn_run4.joblib
+✅ SVM saved: probe_L26_attn_run0.joblib
+L26 attn (svm) | Test ACC: 0.805 | Test AUC: 0.722 (Run 0)
+✅ SVM saved: probe_L26_attn_run1.joblib
+✅ SVM saved: probe_L26_attn_run2.joblib
+✅ SVM saved: probe_L26_attn_run3.joblib
+✅ SVM saved: probe_L26_attn_run4.joblib
+✅ SVM saved: probe_L27_attn_run0.joblib
+L27 attn (svm) | Test ACC: 0.792 | Test AUC: 0.696 (Run 0)
+✅ SVM saved: probe_L27_attn_run1.joblib
+✅ SVM saved: probe_L27_attn_run2.joblib
+✅ SVM saved: probe_L27_attn_run3.joblib
+✅ SVM saved: probe_L27_attn_run4.joblib
+✅ SVM saved: probe_L28_attn_run0.joblib
+L28 attn (svm) | Test ACC: 0.805 | Test AUC: 0.773 (Run 0)
+✅ SVM saved: probe_L28_attn_run1.joblib
+✅ SVM saved: probe_L28_attn_run2.joblib
+✅ SVM saved: probe_L28_attn_run3.joblib
+✅ SVM saved: probe_L28_attn_run4.joblib
+✅ SVM saved: probe_L29_attn_run0.joblib
+L29 attn (svm) | Test ACC: 0.792 | Test AUC: 0.769 (Run 0)
+✅ SVM saved: probe_L29_attn_run1.joblib
+✅ SVM saved: probe_L29_attn_run2.joblib
+✅ SVM saved: probe_L29_attn_run3.joblib
+✅ SVM saved: probe_L29_attn_run4.joblib
+✅ SVM saved: probe_L30_attn_run0.joblib
+L30 attn (svm) | Test ACC: 0.805 | Test AUC: 0.658 (Run 0)
+✅ SVM saved: probe_L30_attn_run1.joblib
+✅ SVM saved: probe_L30_attn_run2.joblib
+✅ SVM saved: probe_L30_attn_run3.joblib
+✅ SVM saved: probe_L30_attn_run4.joblib
+✅ SVM saved: probe_L31_attn_run0.joblib
+L31 attn (svm) | Test ACC: 0.805 | Test AUC: 0.705 (Run 0)
+✅ SVM saved: probe_L31_attn_run1.joblib
+✅ SVM saved: probe_L31_attn_run2.joblib
+✅ SVM saved: probe_L31_attn_run3.joblib
+✅ SVM saved: probe_L31_attn_run4.joblib
+
+📊 Generating plots with confidence intervals for LOGISTIC_REGRESSION...
+✅ Individual PNGs and compiled PDF saved to /lustrehome/vitomarcorubino/HallucinationsDetection/runs/cuad/images/hallucination_detection
+
+📊 Generating plots with confidence intervals for FFN...
+✅ Individual PNGs and compiled PDF saved to /lustrehome/vitomarcorubino/HallucinationsDetection/runs/cuad/images/hallucination_detection
+
+📊 Generating plots with confidence intervals for SVM...
+✅ Individual PNGs and compiled PDF saved to /lustrehome/vitomarcorubino/HallucinationsDetection/runs/cuad/images/hallucination_detection
+
+🚀 Pipeline finished for ragbench_cuad!
